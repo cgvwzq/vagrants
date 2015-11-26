@@ -4,4 +4,4 @@
 
 set -e
 
-apt-get update && apt-get install -y --no-install-recommends curl git build-essential vim git-svn subversion
+apt-get update && apt-get install -y --no-install-recommends curl git build-essential vim git-svn subversion gdb ruby-bcat
