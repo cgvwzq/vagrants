@@ -22,3 +22,7 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | b
 source ~/.nvm/nvm.sh
 nvm install stable
 nvm alias default stable
+
+# Installs v8-print-code-filter and v8-print-code-highlighter
+npm install -g v8-print-code-filter
+npm install -g v8-print-code-highlighter
